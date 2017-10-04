@@ -10,7 +10,7 @@ $('.owl-carousel').owlCarousel({
         0: {
             items: 1
         },
-        400: {
+        525: {
             items: 2,
             margin: 20
         },
@@ -84,3 +84,13 @@ $(document).scroll(function() {
         $('.scroll-down').show();
     }
 });
+
+
+/* Menu popovers*/
+$(function() {
+    $('[data-toggle="popover"]').popover();
+});
+
+$("[data-toggle=popover]")
+    .popover({ html: true });
+

@@ -236,6 +236,10 @@ html {
 .intro-project p {
   margin-bottom: 0; }
 
+.popover.bs-tether-element-attached-left {
+  margin-left: -10rem;
+  margin-top: -5rem; }
+
 .images {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,6 +338,9 @@ html {
   list-style: none;
   padding: 0;
   font-size: 0.7rem; }
+
+.sections-menu nav li a.active {
+  font-weight: bold; }
 
 .sections-menu button,
 .sections-menu button:focus {
@@ -534,10 +541,9 @@ html {
 
   .sections-menu nav li a {
     border-top: none;
-    text-align: left;
     border-top: none;
-    font-size: 0.7rem;
-    color: #755D4B; }
+    font-size: 0.6rem;
+    color: #434343; }
 
   .sections-menu nav {
     background: transparent;
@@ -549,7 +555,8 @@ html {
     background: transparent;
     border: none;
     outline: none;
-    color: #755D4B; }
+    color: #755D4B;
+    font-size: 0.75rem; }
 
   .site-title h1 {
     margin-top: 1rem;
@@ -592,7 +599,10 @@ html {
     text-align: center; }
 
   .rd {
-    margin-left: 5rem; } }
+    margin-left: 5rem; }
+
+  #images-project h4 {
+    margin-top: 1.7rem; } }
 @media (min-width: 994px) {
   .welcome {
     height: 100vh; }
@@ -618,6 +628,12 @@ html {
   #images-project p {
     margin-right: 6rem;
     margin-left: 2.5rem; }
+
+  .sections-menu button {
+    margin-left: 2rem; }
+
+  .sections-menu nav li a {
+    margin-left: 3rem; }
 
   #square-images img {
     width: 60%; }
@@ -670,15 +686,18 @@ html {
     padding-right: 2rem;
     padding-left: 2rem; }
 
-  .sections-menu button {
-    margin-left: 2rem; }
-
-  .sections-menu nav li a {
-    margin-left: 3rem; }
-
   #images-project {
     padding: 0;
     margin-left: 10rem; }
+
+  .sections-menu {
+    margin-top: 2rem; }
+
+  .sections-menu button {
+    font-size: 0.8rem; }
+
+  .sections-menu nav li a {
+    font-size: 0.7rem; }
 
   #images-project p {
     margin-left: 6.5rem;
