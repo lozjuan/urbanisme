@@ -588,7 +588,16 @@ html {
     margin-top: 1.7rem; }
 
   #section-title {
-    margin-top: -2rem; } }
+    margin-top: -2rem; }
+
+  #image-wrapper {
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin-left: 6rem; } }
+@media (min-width: 900px) {
+  #image-wrapper {
+    margin-left: 7rem; } }
 @media (min-width: 994px) {
   .welcome {
     height: 100vh; }
@@ -634,7 +643,13 @@ html {
     margin-left: 6rem; }
 
   .rd {
-    margin-left: 7rem; } }
+    margin-left: 7rem; }
+
+  #image-wrapper {
+    margin-left: 8rem; } }
+@media (min-width: 1100px) {
+  #image-wrapper {
+    margin-left: 9rem; } }
 @media (min-width: 1200px) {
   .site-title h1 {
     margin-top: 1rem;
@@ -700,7 +715,10 @@ html {
     margin-left: 10rem; }
 
   .rd {
-    margin-left: 7rem; } }
+    margin-left: 7rem; }
+
+  #image-wrapper {
+    margin-left: 10rem; } }
 @media (min-width: 1300px) {
   html {
     position: relative;
@@ -721,7 +739,10 @@ html {
 @media (min-width: 1400px) {
   .images p {
     margin-right: 7.5rem;
-    margin-left: 7.5rem; } }
+    margin-left: 7.5rem; }
+
+  #image-wrapper {
+    margin-left: 11rem; } }
 @media (min-width: 1500px) {
   .images p {
     margin-right: 8rem;
@@ -729,7 +750,10 @@ html {
 @media (min-width: 1600px) {
   .images p {
     margin-right: 8.5rem;
-    margin-left: 8.5rem; } }
+    margin-left: 8.5rem; }
+
+  #image-wrapper {
+    margin-left: 12rem; } }
 @media (min-width: 1700px) {
   .images p {
     margin-right: 9rem;

@@ -126,6 +126,9 @@ html {
     color: #999966;
 }
 
+
+
+
 /*animates the scroll-down*/
 
 @keyframes scroll-down-animation {
@@ -436,7 +439,6 @@ html {
     padding: 0.3rem 0.3rem;
 }
 
-
 @media (min-width: 768px) {
     html {
         font-size: 16px;
@@ -565,6 +567,19 @@ html {
     #section-title {
         margin-top: -2rem;
     }
+
+    #image-wrapper {
+        position: relative;
+        width: 70%;
+        height: auto;
+        margin-left: 6rem;
+    }
+}
+
+@media (min-width: 900px) {
+    #image-wrapper {
+        margin-left: 7rem;
+    }
 }
 
 @media (min-width: 994px) {
@@ -626,6 +641,16 @@ html {
 
     .rd {
         margin-left: 7rem;
+    }
+
+    #image-wrapper {
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width: 1100px) {
+     #image-wrapper {
+        margin-left: 9rem;
     }
 }
 
@@ -709,6 +734,10 @@ html {
     .rd {
         margin-left: 7rem;
     }
+
+    #image-wrapper {
+        margin-left: 10rem;
+    }
 }
 
 @media (min-width:1300px) {
@@ -739,6 +768,10 @@ html {
         margin-right: 7.5rem;
         margin-left: 7.5rem;
     }
+
+    #image-wrapper {
+        margin-left: 11rem;
+    }
 }
 
 @media (min-width:1500px) {
@@ -752,6 +785,10 @@ html {
     .images p {
         margin-right: 8.5rem;
         margin-left: 8.5rem;
+    }
+
+    #image-wrapper {
+        margin-left: 12rem;
     }
 }
 

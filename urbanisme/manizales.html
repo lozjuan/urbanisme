@@ -95,13 +95,22 @@
                         <img src="../images/pm_3.jpg" alt="">
                         <h4 id="section-title">Une méthode et une approche pour une réponse architecturale dans le tissu existant</h4>
                         <p>Le présent projet est une proposition de rénovation pour le quartier la Sierra Morena en Colombie, ceci dans l’objectif d’améliorer et sécuriser le cadre de vie des habitants. Il participe à l’ouverture du quartier sur Manizales en faisant ressortir les aspects positifs comment sa forte valeur symbolique, son emplacement prés du centre de la ville, une grande capacité pour l’exploitation des cultures de café en grande production et une grande connaissance de l’utilisation du bambou pour la construction. La zone prise est un échantillon représentatif d’une grande problématique que se voit tout au long de la cordillère des Andes en Amérique latine et dans beaucoup d’autres endroits où la construction spontanée et les faibles ressources ont donné naissance à des peuplements proches de divers risques.</p>
-                        <img src="../images/pm_4.jpg" alt="">
+                        <div class="hidden-sm-down" id="image-wrapper">
+                            <img class="zoom" src="../images/pm_4.jpg" data-big="../images/pm_4.jpg" alt="">
+                        </div>
+                        <img class="hidden-md-up" src="../images/pm_4.jpg" alt="">
                         <h4 id="section-title">Stabilisation, assainissement et désenclavement du site.</h4>
                         <p>Profitant du nouveau passage de la voie, les réseaux d’évacuation, de drainage et autres vont permettre l’évacuation contrôlée de l’eau.Ce réseau s’étalant vers les creux, forme des lignes de descente d’eau. Nous allons le dévier en suivant les courbes de terrain et au fur et à mesure, nous allons ramener cette eau vers les cultures disposées sur ces zones.</p>
-                        <img id="zoom_02" src="../images/pm_5.jpg" alt="">
+                        <div class="hidden-sm-down" id="image-wrapper">
+                            <img class="zoom" src="../images/pm_5.jpg" data-big="../images/pm_5.jpg" alt="">
+                        </div>
+                        <img class="hidden-md-up" src="../images/pm_5.jpg" alt="">
                         <h4 id="section-title">Une Méthode par phases</h4>
                         <p>En partant d’une analyse urbaine pour déterminer l’impact d’une intervention lourde comme la construction de murs de soutènement, de voies d’accès, la protection de réseaux, et en prenant en considération la géographie du terrain, j’ai pu établir un programme réparti en différentes actions développées dans ce chapitre.</p>
-                        <img src="../images/pm_6.jpg" alt="">
+                        <div class="hidden-sm-down" id="image-wrapper">
+                            <img class="zoom" src="../images/pm_6.jpg" data-big="../images/pm_6.jpg" alt="">
+                        </div>
+                        <img class="hidden-md-up" src="../images/pm_6.jpg" alt="">
                         <h4 id="section-title">Rénovation urbaine douce, intervention dans le tissu existant</h4>
                         <p>Dans un premier temps, il faut analyser la quantité de maisons inadaptables dans la zone d’étude et donc de prévoir une démolition. Ceci implique la nécessité de définir le nombre d’habitants à reloger dans des constructions saines. Cette rénovation fait partie d'une organisation en collectivité, recréant des espaces qui vont être liés suites à l’apparition d’une nouvelle trame urbaine, ceci dans le but de recréer une structure urbaine plus organisée. Les habitations existantes, adaptables au projet, font parties de la dynamique de percement liée au projet, les zones démolies seront remplacées ensuite par des infrastructures telles que les places, murs de soutènements, escaliers, cheminements piétonniers, squares pour la population ainsi que de nouveaux logements. Après l'étude du site, nous avons remarqué des endroits reconnus par la communauté, des endroits pouvant être assainis pour ensuite les relier par des cheminements permettant un déplacement moins fatiguant et un meilleur désenclavement pour les habitants.</p>
                     </div>
@@ -113,30 +122,13 @@
         <p class="copyright text-center">© T.A.U.P 2017</p>
     </footer>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <script type="text/javascript" src="../js/jquery.mlens-1.6.min.js"></script>
+    <script type="text/javascript" src="../js/lens.js"></script>
     <script type="text/javascript" src="../js/sections-menu.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script type="text/javascript">
-    $(document).ready(function() {
-        $("#zoom_test").mlens({
-            imgSrc: $("#zoom_test").attr("data-big"), // path of the hi-res version of the image
-            lensShape: "square", // shape of the lens (circle/square)
-            lensSize: ["40%"], // lens dimensions (in px or in % with respect to image dimensions)
-            // can be different for X and Y dimension
-            borderSize: 4, // size of the lens border (in px)
-            borderColor: "#fff", // color of the lens border (#hex)
-            borderRadius: 0, // border radius (optional, only if the shape is square)
-            zoomLevel: 1, // zoom level multiplicator (number)
-            responsive: true // true if mlens has to be responsive (boolean)
-        });
-    });
-    jQuery(document).ready(function($) {
-        var path = window.location.pathname.split("/").pop();;
-        var target = $('nav a[href="../urbanisme/' + path + '"]');
-        target.addClass('active');
-    });
     openList()
     </script>
 </body>
