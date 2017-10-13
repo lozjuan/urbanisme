@@ -288,7 +288,7 @@ html {
           justify-content: flex-start; }
 
 .images img {
-  width: 70%;
+  width: 100%;
   height: auto;
   display: block;
   margin: auto;
@@ -304,8 +304,9 @@ html {
   margin-top: -2rem; }
 
 #legend {
-  margin-top: -2.5rem;
-  text-align: center; }
+  margin-top: -2.7rem;
+  text-align: center;
+  font-style: italic; }
 
 .images p {
   font-size: 0.7rem;
@@ -594,9 +595,29 @@ html {
     position: relative;
     width: 70%;
     height: auto;
-    margin-left: 6rem; } }
+    margin-left: 6rem; }
+
+  .images img {
+    width: 70%;
+    height: auto; }
+
+  .images p,
+  .images h4 {
+    margin-right: 6rem;
+    margin-left: 6rem; }
+
+  #subtitle {
+    margin-bottom: 0.8rem; }
+
+  #list {
+    margin-bottom: 0.5rem; } }
 @media (min-width: 900px) {
   #image-wrapper {
+    margin-left: 7rem; }
+
+  .images p,
+  .images h4 {
+    margin-right: 7rem;
     margin-left: 7rem; } }
 @media (min-width: 994px) {
   .welcome {
@@ -616,18 +637,11 @@ html {
   .summary-image {
     margin-left: 2.3rem; }
 
-  .images p {
-    margin-right: 2.5rem;
-    margin-left: 2.5rem; }
-
   .sections-menu button {
     margin-left: 2rem; }
 
   .sections-menu nav li a {
     margin-left: 3rem; }
-
-  #portrait-image img {
-    width: 50%; }
 
   #logo img {
     width: 50%;
@@ -646,10 +660,23 @@ html {
     margin-left: 7rem; }
 
   #image-wrapper {
+    margin-left: 8rem; }
+
+  .images p,
+  .images h4 {
+    margin-right: 8rem;
     margin-left: 8rem; } }
 @media (min-width: 1100px) {
   #image-wrapper {
-    margin-left: 9rem; } }
+    margin-left: 9rem; }
+
+  .images p,
+  .images h4 {
+    margin-right: 9rem;
+    margin-left: 9rem; }
+
+  .images p {
+    font-size: 0.8rem; } }
 @media (min-width: 1200px) {
   .site-title h1 {
     margin-top: 1rem;
@@ -694,15 +721,9 @@ html {
     margin-top: -2rem; }
 
   #legend {
-    margin-top: -2.5rem;
-    text-align: center; }
-
-  .images p {
-    margin-left: 6.3rem;
-    margin-right: 6.3rem; }
-
-  #portrait-image img {
-    width: 50%; }
+    margin-top: -2.7rem;
+    text-align: center;
+    font-style: italic; }
 
   .content-text {
     margin-left: 8rem; }
@@ -718,6 +739,11 @@ html {
     margin-left: 7rem; }
 
   #image-wrapper {
+    margin-left: 10rem; }
+
+  .images p,
+  .images h4 {
+    margin-right: 10rem;
     margin-left: 10rem; } }
 @media (min-width: 1300px) {
   html {
@@ -733,30 +759,52 @@ html {
   .services .col-6 {
     padding: 0 3rem; }
 
-  .images p {
-    margin-right: 7rem;
-    margin-left: 7rem; } }
+  #image-wrapper {
+    margin-left: 10.8rem; }
+
+  .images p,
+  .images h4 {
+    margin-right: 10.8rem;
+    margin-left: 10.8rem; } }
 @media (min-width: 1400px) {
-  .images p {
-    margin-right: 7.5rem;
-    margin-left: 7.5rem; }
+  .images p,
+  .images h4 {
+    margin-right: 11.3rem;
+    margin-left: 11.3rem; }
 
   #image-wrapper {
-    margin-left: 11rem; } }
+    margin-left: 11.3rem; } }
 @media (min-width: 1500px) {
-  .images p {
-    margin-right: 8rem;
-    margin-left: 8rem; } }
-@media (min-width: 1600px) {
-  .images p {
-    margin-right: 8.5rem;
-    margin-left: 8.5rem; }
+  .images p,
+  .images h4 {
+    margin-right: 12.3rem;
+    margin-left: 12.3rem; }
 
   #image-wrapper {
-    margin-left: 12rem; } }
+    margin-left: 12.3rem; } }
+@media (min-width: 1600px) {
+  .images p,
+  .images h4 {
+    margin-right: 13.3rem;
+    margin-left: 13.3rem; }
+
+  #image-wrapper {
+    margin-left: 13.3rem; } }
 @media (min-width: 1700px) {
-  .images p {
-    margin-right: 9rem;
-    margin-left: 9rem; } }
+  .images p,
+  .images h4 {
+    margin-right: 14rem;
+    margin-left: 14rem; }
+
+  #image-wrapper {
+    margin-left: 14rem; } }
+@media (min-width: 1800px) {
+  .images p,
+  .images h4 {
+    margin-right: 14.5rem;
+    margin-left: 14.5rem; }
+
+  #image-wrapper {
+    margin-left: 14.5rem; } }
 
 /*# sourceMappingURL=styles.css.map */
