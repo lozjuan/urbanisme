@@ -66,19 +66,11 @@ $(document).ready(function() {
         },
         offset: '100'
     });
-    var waypoint2 = $('.summary').waypoint({
-        handler: function(direction) {
-            if (this.element.triggerPoint = '1') {
-                $('.scroll-down').attr('href', '#contact')
-            }
-        },
-        offset: '100'
-    })
 });
 
 /* hides scroll-down */
 $(document).scroll(function() {
-    if ($(this).scrollTop() > 1600) {
+    if ($(this).scrollTop() > 1500) {
         $('.scroll-down').hide();
     } else {
         $('.scroll-down').show();
@@ -93,4 +85,3 @@ $(function() {
 
 $("[data-toggle=popover]")
     .popover({ html: true });
-

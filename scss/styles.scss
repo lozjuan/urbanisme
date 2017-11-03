@@ -1,5 +1,7 @@
 html {
     font-size: 15px;
+    position: relative;
+    min-height: 100%;
 }
 
 .welcome {
@@ -68,12 +70,6 @@ html {
     margin-left: 1rem;
 }
 
-.copyright {
-    opacity: 0.5;
-    font-size: 0.6rem;
-    margin-top: 10px;
-}
-
 .menu-bar {
     margin-left: auto;
     background: transparent;
@@ -125,8 +121,6 @@ html {
     text-decoration: none;
     color: #999966;
 }
-
-
 
 
 /*animates the scroll-down*/
@@ -267,7 +261,6 @@ html {
     justify-content: flex-start;
 }
 
-
 .images img {
     width: 100%;
     height: auto;
@@ -396,23 +389,6 @@ html {
     margin: 0 0.5rem;
 }
 
-.contact {
-    background: #CCCC99;
-}
-
-.contact-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact h4,
-.contact p {
-    text-align: center;
-    font-size: 0.8rem;
-    color: #755D4B;
-}
-
 #logo img {
     width: 50%;
     height: 50%;
@@ -440,6 +416,21 @@ html {
     padding: 0.3rem 0.3rem;
 }
 
+footer {
+    width: 100%;
+    background: #CCCC99;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    margin-top: 0.5rem;
+    opacity: 0.5;
+    font-size: 0.7rem;
+    height: 2rem;
+    margin-bottom: 0;
+}
+
 @media (min-width: 768px) {
     html {
         font-size: 16px;
@@ -451,11 +442,6 @@ html {
 
     .menu-bar {
         margin-left: auto;
-    }
-
-    .contact-content {
-        flex-direction: row;
-        align-items: center;
     }
 
     #main-menu {
@@ -594,6 +580,22 @@ html {
     #list {
         margin-bottom: 0.5rem;
     }
+
+    .contact-content {
+        display: flex;
+        height: 95vh;
+    }
+
+    .info {
+        flex: 1 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form {
+        flex: 1 0 auto;
+    }
 }
 
 @media (min-width: 900px) {
@@ -646,10 +648,6 @@ html {
 
     .summary-text {
         margin-left: 13rem;
-    }
-
-    .text-contact {
-        margin-left: -4rem;
     }
 
     .resume {
