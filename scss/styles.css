@@ -598,8 +598,7 @@ footer {
   .contact-content {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    height: 95vh; }
+    display: flex; }
 
   .info {
     -webkit-box-flex: 1;
