@@ -490,8 +490,7 @@ footer {
 
   #main-menu ul li a {
     font-size: 0.8rem;
-    padding: 0.8rem;
-    text-transform: capitalize; }
+    padding: 0.8rem; }
 
   .sections-menu {
     position: fixed;
