@@ -15,7 +15,7 @@ html {
 }
 
 .welcome-project {
-    height: 10vh;
+    height: 6vh;
     display: flex;
     flex-direction: column;
 }
@@ -121,7 +121,6 @@ html {
     text-decoration: none;
     color: #999966;
 }
-
 
 /*animates the scroll-down*/
 
@@ -416,18 +415,19 @@ html {
     padding: 0.3rem 0.3rem;
 }
 
-footer {
+.footer {
     width: 100%;
     background: #CCCC99;
-    display: flex;
     justify-content: center;
+    bottom: 0;
+    height: 2.5rem;
 }
 
 .copyright {
-    margin-top: 0.5rem;
     opacity: 0.5;
     font-size: 0.7rem;
     height: 2rem;
+    line-height: 2rem;
     margin-bottom: 0;
 }
 
@@ -580,8 +580,43 @@ footer {
         margin-bottom: 0.5rem;
     }
 
-    .contact-content {
+    .contact-content,
+    .cv-content {
         display: flex;
+    }
+
+    .cv-content p {
+        font-size: 0.7rem;
+        color: white;
+    }
+
+    .cv-content {
+        height: 100vh;
+        background: #CCCC99;
+    }
+
+    .cv-content h4 {
+        font-size: 1rem;
+        font-style: italic;
+        color: #755D4B;
+    }
+
+    .cv-content h1 {
+        font-size: 1.5rem;
+        font-style: italic;
+        text-decoration: underline;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color: #755D4B;
+    }
+
+    .cv-left {
+        margin-left: 20rem;
+        margin-right: 5rem;
+    }
+
+    .cv-right {
+        margin-top: 5.5rem;
     }
 
     .info {
